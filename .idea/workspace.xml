@@ -59,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/python/day5" />
       <recent name="$PROJECT_DIR$/src/main/python/day3" />
     </key>
   </component>
@@ -243,7 +244,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701671835445</updated>
       <workItem from="1701671836471" duration="1146000" />
-      <workItem from="1701754026923" duration="4253000" />
+      <workItem from="1701754026923" duration="5102000" />
     </task>
     <servers />
   </component>
