@@ -51,11 +51,11 @@ def get_value_from_hand(hand):
 
     base_value = 0.0
     for x in range(5):
-        hand_card_value = card_values[hand[x]] * (12**(6-x))
+        hand_card_value = card_values[hand[x]] * (15**(6-x))
         # print(hand_card_value)
         base_value += hand_card_value
 
-    base_value = base_value / 100_000_000
+    base_value = base_value / 1_000_000_000
 
     card_counts = [x for x in card_with_value_counts.values()]
     # print(card_counts)
