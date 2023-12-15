@@ -34,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.day15_1.executor": "Run",
     "Python.day7_1.executor": "Run",
     "Python.day9_1.executor": "Run",
     "Python.day9_2.executor": "Run",
@@ -41,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/rolf/workspace/advent-of-code/src/main/python/day9",
+    "last_opened_file_path": "/home/rolf/workspace/advent-of-code/src/main/python/day15",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/python/day15" />
       <recent name="$PROJECT_DIR$/src/main/python/day9" />
       <recent name="$PROJECT_DIR$/src/main/python/day8" />
       <recent name="$PROJECT_DIR$/src/main/python/day7" />
@@ -61,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/main/python/day7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day9_2">
+  <component name="RunManager" selected="Python.day15_1">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -92,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day7_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2023" />
+    <configuration name="day15_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,12 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/day7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/day15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/day7/day7_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/day15/day15_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day15_1" />
         <item itemvalue="Python.day9_2" />
         <item itemvalue="Python.day9_1" />
         <item itemvalue="Python.day8_2" />
         <item itemvalue="Python.day8_1" />
-        <item itemvalue="Python.day7_2" />
       </list>
     </recent_temporary>
   </component>
