@@ -39,45 +39,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.cheat.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day14_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day14_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day15_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day15_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day16_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day7_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day9_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day9_2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rolf/workspace/TTGO-T-watch-2020-Micropython-OS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.cheat.executor": "Run",
+    "Python.day10_1.executor": "Run",
+    "Python.day14_1.executor": "Run",
+    "Python.day14_2.executor": "Run",
+    "Python.day15_1.executor": "Run",
+    "Python.day15_2.executor": "Run",
+    "Python.day16_1.executor": "Run",
+    "Python.day7_1.executor": "Run",
+    "Python.day9_1.executor": "Run",
+    "Python.day9_2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/rolf/workspace/advent-of-code/src/main/python/day10",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/python/day10" />
       <recent name="$PROJECT_DIR$/src/main/python/day14" />
       <recent name="$PROJECT_DIR$/src/main/python/day15" />
       <recent name="$PROJECT_DIR$/src/main/python/day9" />
       <recent name="$PROJECT_DIR$/src/main/python/day8" />
-      <recent name="$PROJECT_DIR$/src/main/python/day7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/python" />
       <recent name="$PROJECT_DIR$/src/main/python/day7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day16_1">
+  <component name="RunManager" selected="Python.day10_1">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -108,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cheat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day10_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/day15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/day10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/day15/cheat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/day10/day10_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day10_1" />
         <item itemvalue="Python.day16_1" />
         <item itemvalue="Python.day14_2" />
         <item itemvalue="Python.day14_1" />
         <item itemvalue="Python.day15_2" />
-        <item itemvalue="Python.cheat" />
       </list>
     </recent_temporary>
   </component>
