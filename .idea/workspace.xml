@@ -45,6 +45,7 @@
     "Python.day10_1.executor": "Run",
     "Python.day10_2.executor": "Run",
     "Python.day10_2_1.executor": "Run",
+    "Python.day11_1.executor": "Run",
     "Python.day14_1.executor": "Run",
     "Python.day14_2.executor": "Run",
     "Python.day15_1.executor": "Run",
@@ -57,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/rolf/workspace/advent-of-code/src/main/python/day10",
+    "last_opened_file_path": "/home/rolf/workspace/advent-of-code/src/main/python/day11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,18 +70,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/python/day11" />
       <recent name="$PROJECT_DIR$/src/main/python/day10" />
       <recent name="$PROJECT_DIR$/src/main/python/day14" />
       <recent name="$PROJECT_DIR$/src/main/python/day15" />
       <recent name="$PROJECT_DIR$/src/main/python/day9" />
-      <recent name="$PROJECT_DIR$/src/main/python/day8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/python" />
       <recent name="$PROJECT_DIR$/src/main/python/day7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day10_2_1">
+  <component name="RunManager" selected="Python.day11_1">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -177,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day14_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day11_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,11 +187,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/day14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/day11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/day14/day14_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/day11/day11_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day11_1" />
         <item itemvalue="Python.day10_2_1" />
         <item itemvalue="Python.day10_2" />
         <item itemvalue="Python.day10_1" />
         <item itemvalue="Python.day16_1" />
-        <item itemvalue="Python.day14_2" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +242,17 @@
       <updated>1701972752338</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/python/day11/day11_1.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/advent_of_code_2023$day6_1.coverage" NAME="day6_1 Coverage Results" MODIFIED="1701841897763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python/day6" />
