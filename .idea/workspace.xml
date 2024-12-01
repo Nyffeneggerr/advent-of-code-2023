@@ -6,6 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="137512ec-6d30-4b78-b1bc-0c0d5d4ff8e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day10/day10_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day10/day10_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day10/day10_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day10/day10_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day10/day10_2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day10/day10_2_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day11/day11_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day11/day11_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day11/day11_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day11/day11_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day14/day14_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day14/day14_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day14/day14_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day14/day14_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day15/day15_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day15/day15_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day15/day15_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day15/day15_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day16/day16_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day16/day16_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day2/day2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day2/day2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day2/day2_second_part.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day2/day2_second_part.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day3/day3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day3/day3_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day3/day3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day3/day3_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day4/day4_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day4/day4_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day4/day4_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day4/day4_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day5/day5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day5/day5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day5/day5_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day5/day5_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day6/day6_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day6/day6_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day6/day6_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day6/day6_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day7/day7_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day7/day7_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day7/day7_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day7/day7_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day8/day8_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day8/day8_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day8/day8_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day8/day8_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day9/day9_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day9/day9_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/day9/day9_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/2023/day9/day9_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +78,17 @@
     "Python.day15_1.executor": "Run",
     "Python.day15_2.executor": "Run",
     "Python.day16_1.executor": "Run",
+    "Python.day1_1.executor": "Run",
+    "Python.day1_2.executor": "Run",
     "Python.day7_1.executor": "Run",
     "Python.day9_1.executor": "Run",
     "Python.day9_2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/rolf/workspace/advent-of-code/src/main/python/day11",
+    "last_opened_file_path": "/home/rolf/workspace/advent-of-code/src/main/python/2024/day1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,18 +100,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/python/2024/day1" />
       <recent name="$PROJECT_DIR$/src/main/python/day11" />
       <recent name="$PROJECT_DIR$/src/main/python/day10" />
       <recent name="$PROJECT_DIR$/src/main/python/day14" />
       <recent name="$PROJECT_DIR$/src/main/python/day15" />
-      <recent name="$PROJECT_DIR$/src/main/python/day9" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/python/2023" />
       <recent name="$PROJECT_DIR$/src/main/python" />
       <recent name="$PROJECT_DIR$/src/main/python/day7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day11_2">
+  <component name="RunManager" selected="Python.day1_2">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -113,28 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day10_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/day10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/day10/day10_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="day10_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <option name="ENV_FILES" value="" />
@@ -149,28 +157,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/day10/day10_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day10_2_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/day10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/day10/day10_2_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,13 +209,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="day1_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/2024/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/2024/day1/day1_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day1_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/2024/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/2024/day1/day1_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day1_2" />
+        <item itemvalue="Python.day1_1" />
         <item itemvalue="Python.day11_2" />
         <item itemvalue="Python.day11_1" />
-        <item itemvalue="Python.day10_2_1" />
         <item itemvalue="Python.day10_2" />
-        <item itemvalue="Python.day10_1" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +278,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/python/day11/day11_1.py</url>
+          <url>file://$PROJECT_DIR$/src/main/python/2023/day11/day11_1.py</url>
           <line>72</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
