@@ -1,5 +1,5 @@
 def read_data():
-    with open('data.txt') as file:
+    with open('test_data.txt') as file:
         return [line.rstrip() for line in file]
 
 
