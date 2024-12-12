@@ -1,27 +1,38 @@
+import functools
+
+number_of_iterations = 75
+
+
+@functools.cache
+def get_count(blink_nr, number):
+    if number == 0:
+        if blink_nr == number_of_iterations - 1:
+            return 1
+        else:
+            return get_count(blink_nr + 1, 1)
+    elif len(str(number)) % 2 == 0:
+        if blink_nr == number_of_iterations - 1:
+            return 2
+        else:
+            str_value = str(number)
+            center = int(len(str_value) / 2)
+            return get_count(blink_nr + 1, int(str_value[:center])) + get_count(blink_nr + 1, int(str_value[center:]))
+    else:
+        if blink_nr == number_of_iterations - 1:
+            return 1
+        else:
+            return get_count(blink_nr + 1, number * 2024)
+
+
 if __name__ == '__main__':
     data = "27 10647 103 9 0 5524 4594227 902936"
-    next_numbers = [int(x) for x in data[0].split(' ')]
+    # data = "125 17"
+    # data = "125"
+    next_numbers = [int(x) for x in data.split(' ')]
 
-    for x in range(75):
-        print("Run: " + str(x))
-        result_list = []
+    result = 0
 
-        for i in range(len(next_numbers)):
-            value = next_numbers[i]
+    for i in range(len(next_numbers)):
+        result += get_count(0, next_numbers[i])
 
-            if value == 0:
-                result_list.append(1)
-            elif len(str(value)) % 2 == 0:
-                str_value = str(value)
-                center = int(len(str_value) / 2)
-                value1 = int(str_value[:center])
-                value2 = int(str_value[center:])
-                result_list.append(value1)
-                result_list.append(value2)
-            else:
-                result_list.append(value * 2024)
-
-        next_numbers = result_list
-
-
-    print(len(next_numbers))
+    print(result)
