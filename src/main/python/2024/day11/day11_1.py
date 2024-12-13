@@ -1,6 +1,3 @@
-from mypyc.primitives.generic_ops import next_op
-
-
 def read_data():
     with open('data.txt') as file:
         return [line.rstrip() for line in file]
