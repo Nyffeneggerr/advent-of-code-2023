@@ -1,10 +1,9 @@
 import functools
-import sys
+from sympy import symbols, Eq, solve
 
-sys.setrecursionlimit(1000000)
 
 def read_data():
-    with open('test_data.txt') as file:
+    with open('data.txt') as file:
         return [line.rstrip() for line in file]
 
 
@@ -24,49 +23,11 @@ def parse_data(data):
         if "Prize" in line_data:
             amounts = line_data[7:].split(", ")
             current_game["Prize"] = [int(amounts[0][2:]) + 10_000_000_000_000, int(amounts[1][2:]) + 10_000_000_000_000]
+            # current_game["Prize"] = [int(amounts[0][2:]), int(amounts[1][2:])]
             result.append(current_game)
             current_game = {}
 
     return result
-
-
-@functools.cache
-def move(x, y, use_cheap, cheap_x, cheap_y, expensive_x, expensive_y, dest_x, dest_y, token_count):
-    if use_cheap:
-        print("cheap")
-        x += cheap_x
-        y += cheap_y
-    else:
-        print("expensive")
-        x += expensive_x
-        y += expensive_y
-
-    if x == dest_x and y == dest_y:
-        print("found: " + str(token_count))
-        return token_count
-
-    if x > dest_x or y > dest_y:
-        return 0
-
-    cheap_token = move(x, y, True, cheap_x, cheap_y, expensive_x, expensive_y, dest_x, dest_y, token_count + 1)
-
-    if cheap_token > 0:
-        return cheap_token
-
-    return move(x, y, False, cheap_x, cheap_y, expensive_x, expensive_y, dest_x, dest_y, token_count + 3)
-
-
-def play_game_and_get_min_tokens(game):
-    expensive = game["A"]
-    cheap = game["B"]
-    dest = game["Prize"]
-
-    cheap_token = move(0, 0, True, cheap[0], cheap[1], expensive[0], expensive[1], dest[0], dest[1], 1)
-
-    if cheap_token > 0:
-        return cheap_token
-
-    return move(0, 0, False, cheap[0], cheap[1], expensive[0], expensive[1], dest[0], dest[1], 3)
 
 
 if __name__ == '__main__':
@@ -74,12 +35,34 @@ if __name__ == '__main__':
 
     data = parse_data(data)
 
-    tokens = 0
+    coins = 0
 
     for game in data:
-        token_returned = play_game_and_get_min_tokens(game)
-        print(token_returned)
-        tokens += token_returned
+        a, b = symbols('a, b', integer=True)
+        eq1 = Eq(a * game['A'][0] + b * game['B'][0], game['Prize'][0])
+        eq2 = Eq(a * game['A'][1] + b * game['B'][1], game['Prize'][1])
+        solution = solve((eq1, eq2))
 
-    print(data)
-    print(tokens)
+        if solution:
+            coins += solution[a] * 3 + solution[b]
+
+        print(solution)
+
+    print(coins)
+
+
+    # a, b = symbols('a b')
+    #
+    # eq1 = Eq(data[0]['A'][0] * a + data[0]['B'][0], data[0]['Prize'][0])
+    # eq2 = Eq(data[0]['A'][1] * a + data[0]['B'][1], data[0]['Prize'][1])
+    #
+    # solution = solve((eq1, eq2), (a, b))
+
+    # a, b = symbols('a, b', integer=True)
+
+    # eq1 = Eq(data[0]['A'][0] * a, data[0]['Prize'][0])
+    # eq1 = Eq(a * 94 + b * 22, 8400)
+    # eq2 = Eq(a * 34 + b * 67, 5400)
+    # solution = solve((eq1, eq2))
+
+    # print(solution)
